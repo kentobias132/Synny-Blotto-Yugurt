@@ -22,8 +22,38 @@ module.exports = {
         md: "3px 3px 0 rgba(0, 0, 0, 0.5)",
         lg: "4px 4px 0 rgba(0, 0, 0, 0.5)",
       },
+      keyframes: {
+        float: {
+          "0%, 100%": { transform: "translateY(0)" },
+          "50%": { transform: "translateY(-20px)" },
+        },
+        floatDelayed: {
+          "0%, 100%": { transform: "translateY(0)" },
+          "50%": { transform: "translateY(-16px)" },
+        },
+        "card-hover": {
+          "0%": { transform: "translateY(0) scale(1)" },
+          "100%": { transform: "translateY(-10px) scale(1.02)" },
+        },
+        "card-hover-subtle": {
+          "0%": { transform: "translateY(0)" },
+          "100%": { transform: "translateY(-8px)" },
+        },
+        "pulse-soft": {
+          "0%, 100%": { transform: "scale(1)" },
+          "50%": { transform: "scale(1.01)" },
+        },
+      },
+      animation: {
+        float: "float 6s ease-in-out infinite",
+        "float-delayed": "floatDelayed 6s ease-in-out infinite 2s",
+        "card-hover": "card-hover 0.3s ease-out forwards",
+        "card-hover-subtle": "card-hover-subtle 0.3s ease-out forwards",
+        "pulse-soft": "pulse-soft 2s ease-in-out infinite",
+      },
     },
   },
+
   variants: {
     extend: {
       textShadow: ["responsive", "hover", "focus"],
