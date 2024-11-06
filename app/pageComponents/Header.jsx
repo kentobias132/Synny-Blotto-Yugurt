@@ -54,25 +54,25 @@ function Header() {
           <div className="md:hidden py-4">
             <div className="flex flex-col space-y-4">
               <Link
-                href="/shop"
+                href="/"
                 className="text-gray-700 hover:text-gray-900 font-bold"
               >
                 Shop
               </Link>
               <Link
-                href="/about"
+                href="/"
                 className="text-gray-700 hover:text-gray-900 font-bold"
               >
                 About
               </Link>
               <Link
-                href="/blog"
+                href="/"
                 className="text-gray-700 hover:text-gray-900 font-bold"
               >
                 Blog
               </Link>
               <Link
-                href="/faq"
+                href="/"
                 className="text-gray-700 hover:text-gray-900 font-bold"
               >
                 FAQ

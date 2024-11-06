@@ -4,7 +4,7 @@ import React from "react";
 function Footer() {
   return (
     <div className="max-w-7xl mx-auto px-4 md:px-8 lg:px-16 font-fira">
-      <div className="grid md:space-x-10 grid-cols-1 justify-center sm:grid-cols-3">
+      <div className="grid md:space-x-10 grid-cols-3 justify-center space-x-4">
         <div className="flex flex-col py-2">
           <h1 className="font-semibold py-2">Products</h1>
           <Link className="py-2 hover:underline" href="/">
