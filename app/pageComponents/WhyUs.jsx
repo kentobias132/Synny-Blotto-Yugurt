@@ -1,10 +1,30 @@
 import React from "react";
 
-function Faq() {
+function WhyUs() {
   return (
     <div className="max-w-7xl font-fira mx-auto pt-6 px-4 md:px-8 lg:px-16">
-      <h1 className="text-center text-xl md:text-2xl lg:text-4xl">FAQ</h1>
+      <h1 className="text-center text-xl md:text-2xl lg:text-4xl">Why Us?</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center py-12">
+        <div className="relative">
+          <div className="relative z-10">
+            <img
+              src="/Bananayogurt.png"
+              alt="main image"
+              className="w-full h-auto object-contain"
+            />
+          </div>
+          <div className="absolute inset-0 z-20">
+            <div className="absolute top-40 right-32 w-24 h-24 animate-float-delayed">
+              <img src="/Strawberry.png" alt="peach" />
+            </div>
+            <div className="absolute bottom-56 left-10 w-24 h-24 animate-float">
+              <img src="/Strawberry1.png" alt="peach" />
+            </div>
+            <div className="absolute bottom-32 right-16 w-24 h-24 animate-float">
+              <img src="/Strawberry2.png" alt="leaf" />
+            </div>
+          </div>
+        </div>
         <div className="space-y-6">
           <p className="text-gray-600 max-w-lg">
             Greek Yogurt is healthier than regular yogurt. It's made with live
@@ -50,23 +70,9 @@ function Faq() {
             Buy now
           </button>
         </div>
-        <div className="relative">
-          <div className="relative z-10">
-            <img
-              src="/Cherryyogurt22.png"
-              alt="main image"
-              className="w-full h-auto object-contain"
-            />
-          </div>
-          <div className="absolute inset-0 z-20">
-            <div className="absolute bottom-40 left-36 w-24 h-24 animate-float-delayed">
-              <img src="/cherry.png" alt="peach" />
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   );
 }
 
-export default Faq;
+export default WhyUs;

@@ -1,9 +1,9 @@
 import React from "react";
-import Header from "./components/Header";
-import Hero from "./components/Hero";
-import Products from "./components/Products";
-import WhyUs from "./components/WhyUs";
-import Faq from "./components/Faq";
+import Header from "./pageComponents/Header";
+import Hero from "./pageComponents/Hero";
+import Products from "./pageComponents/Products";
+import WhyUs from "./pageComponents/WhyUs";
+import Faq from "./pageComponents/Faq";
 
 export default function Home() {
   return (
