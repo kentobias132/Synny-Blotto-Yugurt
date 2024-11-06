@@ -16,25 +16,25 @@ function Header() {
 
           <div className="hidden md:flex items-center space-x-10">
             <Link
-              href="/shop"
+              href="/"
               className="text-gray-700 hover:text-red-500 font-medium"
             >
               Shop
             </Link>
             <Link
-              href="/about"
+              href="/"
               className="text-gray-700 hover:text-red-500 font-medium"
             >
               About
             </Link>
             <Link
-              href="/blog"
+              href="/"
               className="text-gray-700 hover:text-red-500 font-medium"
             >
               Blog
             </Link>
             <Link
-              href="/faq"
+              href="/"
               className="text-gray-700 hover:text-red-500 font-medium"
             >
               FAQ
